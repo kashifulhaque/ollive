@@ -111,7 +111,7 @@ def render_results() -> None:
         path = FIGS / name
         if path.exists():
             with chart_cols[i % 2]:
-                st.image(str(path), use_container_width=True)
+                st.image(str(path), use_column_width=True)
 
     if REPORT.exists():
         md = REPORT.read_text()
