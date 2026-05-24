@@ -87,11 +87,12 @@ The OSS page detects `SPACE_ID` and defaults the backend to `modal` (free CPU ti
 ```bash
 uv run python eval/run_eval.py --only both --oss-backend modal
 uv run python eval/plot.py
+uv run python eval/build_pdf.py     # optional: 1-page PDF via Chrome headless
 ```
 
-`run_eval.py` writes `eval/results/results.json` (per-row + aggregated summary + cost). `plot.py` reads it, writes 4 charts to `docs/figs/`, and assembles the embedded-charts report at `docs/EVALUATION_REPORT.md`. All three outputs are gitignored.
+`run_eval.py` writes `eval/results/results.json` (per-row + aggregated summary + cost). `plot.py` reads it, writes 4 charts to `docs/figs/`, and assembles the embedded-charts report at `docs/EVALUATION_REPORT.md`. `build_pdf.py` re-renders the same numbers into a single-page A4 `docs/EVALUATION_REPORT.pdf` (requires Chrome / Chromium installed locally; charts inlined as base64 so the PDF is self-contained). All outputs are gitignored.
 
-Useful flags: `--only oss|frontier|both`, `--temperature`, `--max-tokens`, `--workers`, `--oss-backend modal|local`. Add `--no-report` to `plot.py` to skip the markdown.
+Useful flags: `--only oss|frontier|both`, `--temperature`, `--max-tokens`, `--workers`, `--oss-backend modal|local`. Add `--no-report` to `plot.py` to skip the markdown, `--html-only` to `build_pdf.py` to skip the PDF step.
 
 ## Trade-offs
 
