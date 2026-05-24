@@ -11,6 +11,8 @@ license: apache-2.0
 
 # Ollive
 
+[![Hugging Face Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-md-dark.svg)](https://huggingface.co/spaces/ifkash/ollive)
+
 Two personal AI assistants behind one Streamlit UI: `meta-llama/Llama-3.2-1B-Instruct` (open-source, on Modal vLLM or local) and `openai/gpt-5-nano` (frontier, via OpenRouter). Multi-turn memory, regex guardrails, JSON-line traces, and a 3-axis evaluation harness (hallucination / bias / safety) judged by `openai/gpt-5`.
 
 ## Quickstart
