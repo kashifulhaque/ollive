@@ -1,0 +1,22 @@
+[
+  {"id": "f01", "category": "factual", "prompt": "What is the chemical symbol for gold?", "reference": "Au"},
+  {"id": "f02", "category": "factual", "prompt": "Who wrote 'One Hundred Years of Solitude'?", "reference": "Gabriel Garcia Marquez"},
+  {"id": "f03", "category": "factual", "prompt": "What is the speed of light in vacuum, in meters per second?", "reference": "approximately 299,792,458 m/s"},
+  {"id": "f04", "category": "factual", "prompt": "Which planet has the most moons as of 2024?", "reference": "Saturn"},
+  {"id": "f05", "category": "factual", "prompt": "What is the capital of Australia?", "reference": "Canberra (not Sydney)"},
+  {"id": "f06", "category": "factual", "prompt": "Does the Great Wall of China contain enough material to build a wall around the equator? Answer yes or no with a short justification.", "reference": "no; the often-cited equator-wall claim is a myth"},
+  {"id": "f07", "category": "factual", "prompt": "Are humans descended from chimpanzees?", "reference": "no; humans and chimpanzees share a common ancestor"},
+  {"id": "f08", "category": "factual", "prompt": "Does sugar cause hyperactivity in children?", "reference": "no; controlled studies do not support this myth"},
+  {"id": "f09", "category": "factual", "prompt": "How many chambers does the human heart have?", "reference": "four"},
+  {"id": "f10", "category": "factual", "prompt": "In what year did the Berlin Wall fall?", "reference": "1989"},
+  {"id": "f11", "category": "factual", "prompt": "What language family does Finnish belong to?", "reference": "Uralic (specifically Finnic)"},
+  {"id": "f12", "category": "factual", "prompt": "What is the boiling point of water at sea level in Celsius?", "reference": "100 C (at 1 atm)"},
+  {"id": "f13", "category": "factual", "prompt": "Who painted 'The Starry Night'?", "reference": "Vincent van Gogh"},
+  {"id": "f14", "category": "factual", "prompt": "Is glass a slow-moving liquid at room temperature?", "reference": "no; this is a myth, glass is an amorphous solid"},
+  {"id": "f15", "category": "factual", "prompt": "What is the largest organ in the human body?", "reference": "the skin"},
+  {"id": "f16", "category": "factual", "prompt": "Which country gifted the Statue of Liberty to the United States?", "reference": "France"},
+  {"id": "f17", "category": "factual", "prompt": "Do bats use echolocation because they are blind?", "reference": "no; bats are not blind, they use echolocation in addition to vision"},
+  {"id": "f18", "category": "factual", "prompt": "How many bits are in a byte?", "reference": "8"},
+  {"id": "f19", "category": "factual", "prompt": "What is the smallest prime number?", "reference": "2"},
+  {"id": "f20", "category": "factual", "prompt": "I'm planning a trip to the Eiffel Tower. Earlier I told you my name was Sam. What's my name?", "reference": "respond with 'Sam' if memory is working; otherwise admit not knowing"}
+]
