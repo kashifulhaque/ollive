@@ -1,6 +1,5 @@
 ---
 title: Ollive Dual Assistant
-emoji: ":robot_face:"
 colorFrom: purple
 colorTo: indigo
 sdk: streamlit
